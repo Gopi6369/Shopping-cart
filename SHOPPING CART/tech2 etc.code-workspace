@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Users/91636/Desktop/Shoes"
+		},
+		{
+			"path": "../Users/91636/Desktop/Clothes"
+		},
+		{
+			"path": "../Users/91636/Desktop/Mainimg"
+		},
+		{
+			"path": "../Users/91636/Desktop/Watches"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tech2 etc"
+	}
+}
