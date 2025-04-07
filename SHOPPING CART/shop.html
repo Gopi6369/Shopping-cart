@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="style sheet" href="style.css">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<style>
+    .product img{
+        width:100%;
+        height:auto;
+        box-sizing:border-box;
+        object-fit:cover;
+
+    }
+
+    #feautured > nav > ul > li.page-item.active > a{
+        background-color: black;
+    }
+
+    #feautured > nav > ul > li:nth-child(n):hover>a{
+        background-color: orange;
+        color: white;
+    }
+
+    .pagination{
+        color: black;
+    }
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+
+    <a href="#" class="logo">
+      <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+      <span class="cart-text">Items in the cart</span>
+    </a>
+    
+
+    <div class="box">
+      <div class="cart-count">0</div>
+      <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+    </div>
+
+    <div class="cart">
+      <div class="cart-title">Cart Items</div>
+      <div class="cart-content">
+<!--
+        <div class="cart-box">
+          <img src="img" class="cart-img">
+          <div class="detail-box">
+            <div class="cart-food-title">Special Dosai</div>
+            <div class="price-box">
+              <div class="cart-price">Rs.72</div>
+               <div class="cart-amt">Rs.72</div>
+           </div>
+            <input type="number" value="1" class="cart-quantity">
+          </div>
+          <ion-icon name="trash" class="cart-remove"></ion-icon>
+        </div>
+
+        <div class="cart-box">
+          <img src="images/97.jpg" class="cart-img">
+          <div class="detail-box">
+            <div class="cart-food-title">Special Dosai</div>
+            <div class="price-box">
+              <div class="cart-price">Rs.72</div>
+               <div class="cart-amt">Rs.72</div>
+           </div>
+            <input type="number" value="1" class="cart-quantity">
+          </div>
+          <ion-icon name="trash" class="cart-remove"></ion-icon>
+        </div>
+      -->
+      </div>
+      
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">Rs.0</div>
+    </div>
+
+    <button class="btn-buy">Place Order</button>
+
+    <ion-icon name="close" id="cart-close"></ion-icon>
+
+    </div>
+  </div>
+</header>
+
+
+<nav class="navbar navbar-expand-lg navbatr-light bg-white py-3">
+    <div class="container-fluid">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <a class="navbar-brand"><i class="fa fa-shopping-basket" aria-hidden="true"></i>   shoppy</a>
+      <a class="navbar-brand" href="index2.html">home</a>
+      <a class="navbar-brand active" href="shop.html">Shoes</a>
+      <a class="navbar-brand active" href="shop2.html">Watch</a>
+      <a class="navbar-brand active" href="shop3.html">Clothes</a>
+      <a class="navbar-brand" href="about.html">about</a>
+     
+
+      
+      
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+           <br></div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <br></br></nav>
+
+          <section id="feautured" class="my-5 py-5">
+            <div class="container  mt-5 py-5">
+
+    <center>
+        <h2 class="font-weight-bold">Our Features</h2>
+        <hr >
+        <p>Designed for Impact: The Shoe That Moves with You </p>
+        
+    </center>
+
+    
+
+
+</html>
+<br>
+                <div class="row mx-auto container">
+                  <div class="row mx-auto">
+
+                    <!-- Product 1 -->
+                    <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                      <div class="pic">
+                        <img src="img/Shoes/Shoes1.jpeg" class="food-img">
+                      </div>
+                      <h2 class="food-title">Nike Air Max 2023</h2>
+                      <span class="food-price">Rs.350</span>
+                      <ion-icon name="cart" class="add-cart"></ion-icon>
+                    </div>
+                   <!-- Product 2 -->
+                    <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                      <div class="pic">
+                        <img src="img/Shoes/Shoes2.jpeg" class="food-img">
+                      </div>
+                      <h2 class="food-title">Adidas Ultraboost 24</h2>
+                      <span class="food-price">Rs.450</span>
+                      <ion-icon name="cart" class="add-cart"></ion-icon>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                    
+                      <div class="pic">
+                        <img src="img/Shoes/Shoes3.jpeg" class="food-img">
+                      </div>
+                      <h2 class="food-title">New Balance 327</h2>
+                      <span class="food-price">Rs.500</span>
+                      <ion-icon name="cart" class="add-cart"></ion-icon>
+                    </div>
+                  <!-- Product 4 -->
+                     <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                    
+                      <div class="pic">
+                        <img src="img/Shoes/Shoes 4.webp" class="food-img">
+                      </div>
+                      <h2 class="food-title">Puma RS-X</h2>
+                      <span class="food-price">Rs.600</span>
+                      <ion-icon name="cart" class="add-cart"></ion-icon>
+                    </div>
+                  <!-- Product 5 -->
+                  <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                    
+                    <div class="pic">
+                      <img src="img/Shoes/Shoes 5.jpeg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Reebok Nano X2</h2>
+                    <span class="food-price">Rs.400</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                  </div>
+                <!-- Product 6 -->
+                  <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                    
+                    <div class="pic">
+                      <img src="img/Shoes/Shoes6.webp" class="food-img">
+                    </div>
+                    <h2 class="food-title">Under Armour HOVR Phantom</h2>
+                    <span class="food-price">Rs.550</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                  </div>
+                <!-- Product 7 -->
+                  <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                    
+                    <div class="pic">
+                      <img src="img/Shoes/Shoes7.webp" class="food-img">
+                    </div>
+                    <h2 class="food-title">Converse Chuck 70 Renew</h2>
+                    <span class="food-price">Rs.750</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                  </div>
+                <!-- Product 8 -->
+                   <div class="product text-center col-lg-3 col-md-4 col-12 mb-4">
+                    
+                    <div class="pic">
+                      <img src="img/Shoes/Shoes8.jpeg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Vans Old Skool Pro</h2>
+                    <span class="food-price">Rs.800</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                  </div>
+                
+                </div>
+                </section>
+<nav aria-label="...">
+  <ul class="pagination mt-5">
+    <li class="page-item">
+      <a class="page-link" href="shop3.html">Previous</a>
+    </li>
+    <li class="page-item active">
+      <a class="page-link" href="shop.html">1</a>
+    </li>
+    <li class="page-item ">
+      <a class="page-link" href="shop2.html">2</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="shop3.html">3</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="shop2.html">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<footer class="mt-5 py-5">
+  <div class="container mx-auto pt-5">
+    <div class="row">
+
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+        <p class="pt-3">Great for a brand that offers more than just a product—it's about the transformation and lifestyle that the customer desires</p>
+      </div>
+
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <h5 class="pd-2">Featured</h5>
+        <ul class="text-uppercase list-unstyled">
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Boys</a></li>
+          <li><a href="#">Girls</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Clothes</a></li>
+        </ul>
+      </div>
+
+     
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <h5 class="pd-2">Contact Us</h5>
+        <div>
+          <h6 class="text-uppercase">Address</h6>
+          <p>123 Street Name, City, US</p>
+        </div>
+        <div>
+          <h6 class="text-uppercase">Phone</h6>
+          <p>6354 6354</p>
+        </div>
+        <div>
+          <h6 class="text-uppercase">Email</h6>
+          <p>shoppy@gmail.com</p>
+        </div>
+      </div>
+
+     
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <h5 class="pd-2">Instagram</h5>
+        <div class="row">
+          <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall1.jpg" alt="Instagram Image 1">
+          <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall2.jpg" alt="Instagram Image 2">
+          <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall3.jpg" alt="Instagram Image 3">
+          <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall4.webp" alt="Instagram Image 4">
+          <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall5.jpg" alt="Instagram Image 5">
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="copyright-text d-flex justify-content-center align-items-center">
+      <div class="text-center">
+        <p><strong>@rymo ecommerce 2021. All rights reserved.</strong></p>
+      </div>
+    </div>
+    
+    
+    
+</div>
+</footer>
+
+
+
+
+
+
+   
+
+               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+               integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+               <script src="cart.js"></script>
+</body>
+</html>

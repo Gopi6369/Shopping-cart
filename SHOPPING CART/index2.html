@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Shoppy</a>
+            <a class="navbar-brand" href="index2.html">home</a>
+            <a class="navbar-brand active" href="shop.html">Shoes</a>
+            <a class="navbar-brand active" href="shop2.html">Watches</a>
+            <a class="navbar-brand active" href="shop3.html">Clothes</a>
+            <a class="navbar-brand" href="about.html">about</a>
+
+            <form class="d-flex ms-auto" role="search">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
+            <i class="fa fa-bars d-lg-none" aria-hidden="true"></i>
+            
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center py-5">
+        <div class="container">
+            <h5>New Arrivals</h5>
+            <h1><span>Best Price</span> This Year</h1>
+            <p>Offers</p>
+            
+              <button class="btn btn-primary" onclick="changePage4()">Shop Now</button>
+              <script>
+                function changePage4() {
+                    window.location.href = "shop.html"; 
+                }
+            </script>
+            
+        </div>
+    </section>
+
+    <!-- Brand Section -->
+    <section id="banner" class="my-5 py-5">
+      <div class="container">
+        <h4>Mid Season Sales</h4>
+        <h1>Autumn Collections <br>Up to 20% Off</h1>
+        
+        <!-- Anchor tag wrapping the button -->
+        
+          <button class="text-uppercase" onclick="changePage2">Shop Now</button>
+          <script>
+            function changePage2() {
+                window.location.href = "shop2.html"; 
+            }
+        </script>
+       
+      </div>
+    </section>
+    
+
+    <!-- New Section -->
+    <section id="new" class="w-100">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12 p-0">
+              
+                <img class="img-fluid" src="img/Shoes/Shoes3.jpeg" alt="Sneakers">
+                <div class="details">
+                    <h2>Extreme Rare Sneakers</h2>
+                    <button class="text-uppercase" onclick="changePage()">Shop Now</button>
+                    
+    <script>
+      function changePage() {
+          window.location.href = "shop.html"; 
+      }
+  </script>
+                  
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12 p-0">
+             
+                <img class="img-fluid" src="img/Mainimg/Clothesmain.webp" alt="Outfit">
+                <div class="details">
+                    <h2>Awesome Blank Outfit</h2>
+                    <button class="text-uppercase" onclick="changePage1()">Shop Now</button>
+                    <script>
+                      function changePage1() {
+                          window.location.href = "shop2.html"; 
+                      }
+                  </script>
+                    </div>
+              
+            </div>
+            <div class="col-lg-4 col-md-12 col-12 p-0">
+              
+                <img class="img-fluid" src="img/Mainimg/Main watch img.webp" alt="Sportwear">
+                <div class="details">
+                    <h2>fashionable Watches</h2>
+                    <button class="text-uppercase" onclick="changePage2()">Shop Now</button>
+                    <script>
+                      function changePage2() {
+                          window.location.href = "shop3.html"; 
+                      }
+                  </script>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banne" class="my-5 py-5">
+      <div class="container">
+        <h4>Christmas Sales</h4>
+        <h1>Trendy Collections <br>Up to 50% Off</h1>
+        
+        <!-- Anchor tag wrapping the button -->
+        
+          <button class="text-uppercase" onclick="changePage()">Shop Now</button>
+          <script>
+            function changePage() {
+                window.location.href = "shop3.html"; 
+            }
+        </script>
+       
+      </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="my-5">
+        <div class="container text-center">
+            <h3>Our Features</h3>
+            <hr class="mx-auto">
+            <p>Here you can check out our Fast selling products</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img class="img-fluid mb-3" src="img/Shoes/Shoes3.jpeg" alt="Sport Boots">
+                    <h5>Sport Boots</h5>
+                    <h4>Rs.200</h4>
+                    <button class="btn btn-success" onclick="changePage1()">Buy Now</button>
+                    <script>
+                      function changePage1() {
+                          window.location.href = "Shoe1.html"; 
+                      }
+                  </script>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img class="img-fluid mb-3" src="img/Clothes/Clothes8.jpg" alt="Sport Boots">
+                    <h5>Branded Clothes</h5>
+                    <h4>Rs.300</h4>
+                    <button class="btn btn-success" onclick="changePage2()">Buy Now</button>
+                    <script>
+                      function changePage2() {
+                          window.location.href = "clothes1.html"; 
+                      }
+                  </script>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img class="img-fluid mb-3" src="img/Watches/Watch8.jpeg" alt="Sport Boots">
+                    <h5>Stylish Watches</h5>
+                    <h4>Rs.400</h4>
+                    <button class="btn btn-success" onclick="changePage3()">Buy Now</button>
+                    <script>
+                      function changePage3() {
+                          window.location.href = "Watch1.html"; 
+                      }
+                  </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5 py-5">
+      <div class="container mx-auto pt-5">
+        <div class="row">
+    
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            <p class="pt-3">Great for a brand that offers more than just a product—it's about the transformation and lifestyle that the customer desires</p>
+          </div>
+    
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pd-2">Featured</h5>
+            <ul class="text-uppercase list-unstyled">
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Boys</a></li>
+              <li><a href="#">Girls</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Clothes</a></li>
+            </ul>
+          </div>
+    
+         
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pd-2">Contact Us</h5>
+            <div>
+              <h6 class="text-uppercase">Address</h6>
+              <p>123 Street Name, City, US</p>
+            </div>
+            <div>
+              <h6 class="text-uppercase">Phone</h6>
+              <p>6354 6354</p>
+            </div>
+            <div>
+              <h6 class="text-uppercase">Email</h6>
+              <p>shoppy@gmail.com</p>
+            </div>
+          </div>
+    
+         
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pd-2">Instagram</h5>
+            <div class="row">
+              <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall1.jpg" alt="Instagram Image 1">
+              <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall2.jpg" alt="Instagram Image 2">
+              <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall3.jpg" alt="Instagram Image 3">
+              <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall4.webp" alt="Instagram Image 4">
+              <img class="img-fluid w-25 h-100 m-2" src="img/Footersmall/Footersmall5.jpg" alt="Instagram Image 5">
+            </div>
+          </div>
+    
+        </div>
+        
+        <div class="copyright-text d-flex justify-content-center align-items-center">
+          <div class="text-center">
+            <p><strong>@rymo ecommerce 2021. All rights reserved.</strong></p>
+          </div>
+        </div>
+        
+        
+        
+    </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <script src="cart.js"></script>        
+</body>
+</html>
